@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Redirect from './pages/Redirect';
 import History from './pages/History';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -16,9 +17,10 @@ const router = createBrowserRouter([
     element: <Redirect/>,
   },
   {
-   path:'/history',
-   element: <History/>
+    path: "/History",
+    element: <History/>
   }
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

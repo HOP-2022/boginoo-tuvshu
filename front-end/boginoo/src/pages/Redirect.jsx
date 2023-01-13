@@ -13,7 +13,7 @@ const Redirect = () => {
       console.log(error)
    })
   return (
-    <div>Redirecting ...</div>
+    <div>Redirecting</div>
   )
 }
 export default Redirect;

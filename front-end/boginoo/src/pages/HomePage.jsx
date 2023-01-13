@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "../container/boginoo.png";
 import { useState } from "react";
 import axios from 'axios'
-import {Link} from "react"
 
 const styles = {
   container1: {
@@ -72,6 +71,7 @@ export const Homepage = () => {
       .catch((error) => console.log(error));
   }
   const Funct = ({link, short}) => {
+    const value = 'histroy'
     return (
       <div >
         <div>Өгөгдсөн холбоос:</div>
